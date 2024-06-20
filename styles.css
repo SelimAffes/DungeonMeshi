@@ -1,25 +1,30 @@
+
 header , footer{
   text-align:center;
-  padding:10px;
   background-color:#F5E7B2;
   color:#973131;
+  padding-top: 10px;
+  padding-bottom:10px;
 }
 
 header{
-  margin:10px 10px 0 10px;
   border-radius:10px 10px 0 0;
 }
 
 footer{
-  margin:0 10px 10px 10px;
   border-radius:0 0 10px 10px;
 }
-
-.container{
+main{
   background-color:#F5E7B2;
-  margin:0 10px 0 10px;
+  margin:0 10px;
   padding-bottom:10px;
 }
+header , footer , main{
+  max-width:900px;
+  margin:auto;
+}
+
+
 
 .img-div{
   background-color:#E0A75E;
@@ -43,7 +48,7 @@ h2{
   color:#973131;
 }
 
-.container > p{
+footer > p{
   text-align:center;
   color:#973131;
   font-size:150%;
