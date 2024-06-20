@@ -52,4 +52,10 @@ footer > p{
   text-align:center;
   color:#973131;
   font-size:150%;
+  margin:0 10px;
+}
+
+li{
+  list-style-type: '\1F373';
+  margin-bottom:0.6em;
 }
